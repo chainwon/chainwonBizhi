@@ -1,0 +1,5 @@
+<IFMODULE mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wallpaper_(\d+)\.html index.php?i=$1
+</IFMODULE>
